@@ -1,0 +1,74 @@
+<template>
+    <div class="space-y-0">
+
+  
+<!-- Quick Service Overview -->
+<section class="min-h-screen flex flex-col justify-center items-center px-8 md:px-48 lg:px-64" style="background-color: #1A1A1A;" text-center>
+  <h2 class="text-4xl font-bold mb-8 text-white">Our Services</h2>
+  <p class="text-lg mb-10 px-6 md:px-32 text-white">
+    We offer a range of media services tailored to connect with diverse communities. Our expertise spans strategic planning, marketing execution, and creative solutions to drive impactful results.
+  </p>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-6 md:px-16">
+    <!-- Media Planning & Buying -->
+    <div class="bg-gray-800 text-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition duration-300">
+      <h3 class="text-xl font-bold mb-3">Media Planning & Buying</h3>
+      <p class="text-gray-400 text-sm">
+        We develop tailored media strategies to optimise reach and engagement across multiple platforms.
+      </p>
+    </div>
+
+    <!-- Digital Marketing -->
+    <div class="bg-gray-800 text-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition duration-300">
+      <h3 class="text-xl font-bold mb-3">Digital Marketing</h3>
+      <p class="text-gray-400 text-sm">
+        From social media to search engine marketing, we create campaigns that drive results and brand awareness.
+      </p>
+    </div>
+
+    <!-- Creative Strategy -->
+    <div class="bg-gray-800 text-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition duration-300">
+      <h3 class="text-xl font-bold mb-3">Creative Strategy</h3>
+      <p class="text-gray-400 text-sm">
+        We craft compelling visuals and messaging to help brands connect with audiences in meaningful ways.
+      </p>
+    </div>
+
+    <!-- Multicultural Marketing -->
+    <div class="bg-gray-800 text-white rounded-xl shadow-lg p-6 hover:shadow-2xl transition duration-300">
+      <h3 class="text-xl font-bold mb-3">Multicultural Marketing</h3>
+      <p class="text-gray-400 text-sm">
+        Specialising in culturally relevant campaigns that engage and resonate with diverse communities.
+      </p>
+    </div>
+  </div>
+</section>
+
+    </div>
+  </template>
+  
+  <script>
+  export default {
+    name: 'Services'
+  }
+  </script>
+  
+  <style scoped>
+  /* Parallax Effect */
+  section {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Remove extra spacing between sections */
+  .space-y-0 > * {
+    margin-bottom: 0;
+  }
+  
+  /* Improve Parallax Performance */
+  .bg-cover {
+    background-attachment: fixed;
+    transform: translateZ(0);
+  }
+  </style>
+  
