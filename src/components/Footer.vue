@@ -5,7 +5,6 @@
           <!-- Links -->
           <div class="flex space-x-6 mb-4 md:mb-0">
             <router-link to="/careers" class="text-black hover:text-teal-300">Careers</router-link>
-            <router-link to="/contact" class="text-black hover:text-teal-300">Social Media</router-link>
           </div>
           <!-- Contact Details -->
           <div class="text-black text-sm">
